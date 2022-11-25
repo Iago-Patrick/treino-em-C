@@ -1,3 +1,10 @@
+/* --------------------------------------------------------------------------------------------- */
+/*
+compilador:
+gcc ponteiros-2.c -o ponteiro-2.exe -Wall -g -Og -lm -Wextra -ansi -pedantic-errors -DDEBUG=1
+*/
+/* --------------------------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 void soma(int *p, int a, int b);
