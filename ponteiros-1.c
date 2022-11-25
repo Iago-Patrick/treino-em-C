@@ -1,8 +1,7 @@
 /* --------------------------------------------------------------------------------------------- */
 /*
 compilador:
-gcc cobrinha.c -o cobrinha.x -Wall -lncurses -g -Og -lm -Wextra -ansi -pedantic-errors -DDEBUG=1
-gcc cobrinha.c -o cobrinha.exe -Wall -g -Og -lm -Wextra -ansi -pedantic-errors -DDEBUG=1*/
+gcc ponteiros-1.c -o ponteiro-1.exe -Wall -g -Og -lm -Wextra -ansi -pedantic-errors -DDEBUG=1*/
 /* --------------------------------------------------------------------------------------------- */
 #include <stdio.h>
 
