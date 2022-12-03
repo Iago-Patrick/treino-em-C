@@ -1,18 +1,16 @@
 #ifndef ESTRUTURA
-#define ESTRUTURA
 
 typedef struct numero
 {
-	int x;
-	int y;
+	float x;
+	float y;
+	float resultado;
+	char operacaouser[2];
 } num;
 
-typedef struct sinal
-{
-	char x;
-	char y;
-	
-} sinal;
-
+num soma(num n);
+num mult(num n);
+num div(num n);
+num sub(num n);
 
 #endif
